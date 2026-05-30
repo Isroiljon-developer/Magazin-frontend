@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // Yangi backend havolasi o'rnatildi
-const API = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://floor-do-kon.onrender.com';
+const API = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://magazin-backend.onrender.com';
 
 const Dashboard = () => {
     const [stats, setStats] = useState({
